@@ -13,6 +13,9 @@ stage4:
 stage5:
 	docker build -t fajar-app:stage5 . -f Dockerfile.stage5
 
+stage5-with-py:
+	docker build -t fajar-app:stage5-with-py . -f Dockerfile.stage5-with-py
+
 run1:
 	docker run -d -p 8000:8000 fajar-app:stage1
 
@@ -27,6 +30,9 @@ run4:
 
 run5:
 	docker run -d -p 8000:8000 fajar-app:stage5
+
+run5-with-py:
+	docker run -d -p 8000:8000 fajar-app:stage5-with-py
 
 hit:
 	curl http://localhost:8000
