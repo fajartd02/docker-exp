@@ -1,0 +1,38 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.env
+*.env
+.Python
+
+# Byte-compiled files
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Git & other VCS
+.git/
+.gitignore
+.gitattributes
+
+# OS/IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Build outputs
+build/
+dist/
+*.log
+
+# Docker itself
+Dockerfile
+docker-compose.yml
